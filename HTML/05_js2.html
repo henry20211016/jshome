@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>05_js2.html</title>
+</head>
+<body>
+    <h1>05_js2.html</h1>
+    <script>
+      var res;
+      var num=window.prompt('숫자를 입력하세요:')
+      document.write('<h3>num='+num+'</h3>');
+
+      if(num>0){
+        res='양수';
+      } else if(num<0){
+        res='음수';
+      } else{
+        res='영';
+      }
+      document.write(num+'은'+res+'이다.');
+
+    </script>
+</body>
+</html>

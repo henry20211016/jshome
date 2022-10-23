@@ -1,0 +1,14 @@
+h1 {
+    background-color:darkorange;
+    color:rgb(255, 204, 0);
+}
+th{
+    background-color:aliceblue;
+    color:cyan;
+}
+table,td,th{
+    border:1px solid gray;
+    border-collapse:collapse;
+    padding:10px;
+    text-align:center;
+}

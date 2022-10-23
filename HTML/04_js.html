@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>논리연산자</title>
+</head>
+<body>
+    
+    <h1>논리연산자</h1>
+    <h2>나이 10살 이상, 키 150이상</h2>
+    <script>
+        var age=9;
+        var height=160;
+        document.write('<h3>AND</h3>');
+        res=(age>=10)&&(height>=150);
+        document.write('탑승가능:'+res);
+        document.write('<h3>QR</h3>');
+        res=(age>=10)||(height>=150);
+        document.write('탑승가능:'+res);
+        document.write('<h3>NOT</h3>');
+        res=!(age>=10);
+        document.write('10살 미만:'+res);
+    </script>
+</body>
+</html>

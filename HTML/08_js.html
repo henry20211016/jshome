@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>08_js.html</title>
+</head>
+<body>
+    <h1>08_js.html</h1>
+    <script>
+        var res;
+        var num=window.prompt('점수를 입력하세요:');
+        
+        document.write('입력점수:'+num+'점');
+        document.write('<br>');
+        if(num>=90){
+            res='A';
+        } else if(num>=80){
+            res='B';
+        } else if(num>=70){
+            res='C';
+        } else if(num>=60){
+            res='D';
+        } else{
+            res='F';
+        }
+        document.write('학점:'+res);
+    </script>
+</body>
+</html>

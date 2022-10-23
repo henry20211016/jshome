@@ -1,0 +1,20 @@
+h1 {
+    color:rgb(8, 247, 68);
+    font-size:30px;
+}
+
+a:link,a:visited{
+    font-size:20px;
+    color:rgb(18, 190, 233);
+    text-decoration:none;
+}
+
+a:hover{
+    font-size:25px;
+    font-weight:bolder;
+    text-decoration:underline;
+    color:rgb(255, 0, 0);
+}
+a:active{
+    color:rgb(179, 255, 0);
+}
