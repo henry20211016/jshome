@@ -1,4 +1,4 @@
-var com=Math.random();
+var com=Math.random()*100;
 com=parseInt(com)+1;
 console.log(com);
 var cnt=0;
